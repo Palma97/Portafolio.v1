@@ -1,0 +1,218 @@
+.containerContact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.computerForm {
+  margin-top: 0;
+  width: 600px;
+  height: 450px;
+  object-fit: cover;
+}
+
+.textForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+}
+
+.textForm1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0;
+  font-size: 1.3em;
+}
+
+.textForm2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.textForm2 .escribeme {
+  width: 0;
+  background-color: rgba(56, 53, 53, 0.568);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: all ease 0.5s;
+  height: 100%;
+}
+
+.escribeme h1 {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  text-align: center;
+  font-size: 3.5em;
+}
+
+.textForm2:hover .escribeme {
+  width: 100%;
+  cursor: pointer;
+}
+
+.h1Form {
+  display: inline-block;
+  color: #5a84a2;
+  transform: perspective(1px) translateZ(0);
+}
+
+.h1Form2 {
+  display: inline-block;
+  color: #5a84a2;
+  font-size: 3.5em;
+  transform: perspective(1px) translateZ(0);
+}
+
+.h1Form:hover {
+  animation-name: efecto;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+
+.h1Form2:hover {
+  animation-name: efecto;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+
+@keyframes efecto {
+  17% {
+    transform: translateX(8px);
+  }
+  34% {
+    transform: translateX(-6px);
+  }
+  50% {
+    transform: translateX(4px);
+  }
+  67% {
+    transform: translateX(-2px);
+  }
+  84% {
+    transform: translateX(1px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.pForm {
+  width: 80%;
+  text-align: justify;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  width: 50%;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input {
+  width: 400px;
+  height: 50px;
+  margin-bottom: 20px;
+  border: solid 3px black;
+}
+
+.input:hover {
+  border: solid 3px #5a84a2;
+  transition: ease-in-out 0.3s;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  width: 50%;
+}
+
+.icons {
+  color: #5a84a2;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.35);
+  transition: 1s ease;
+}
+
+.linkedin:hover {
+  background-color: blue;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0 0 15px blue, 0 0 45px blue, 0 0 75px blue, 0 0 115px blue;
+}
+
+.github:hover {
+  background-color: black;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0 0 15px black, 0 0 45px black, 0 0 75px black, 0 0 115px black;
+}
+
+.whatsapp:hover {
+  background-color: green;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0 0 15px green, 0 0 45px green, 0 0 75px green, 0 0 115px green;
+}
+
+.gmail:hover {
+  background-color: #5a84a2;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0 0 15px #5a84a2, 0 0 45px #5a84a2, 0 0 75px #5a84a2,
+    0 0 115px #5a84a2;
+}
+
+.buttonSend {
+  width: 100px;
+  height: 50px;
+  font-size: 0.8rem;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow: -2px -2px 8px rgba(255, 255, 255, 1),
+    -2px -2px 8px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.1), 2px 2px 8px rgba(0, 0, 0, 0.15);
+  border: solid 1px white;
+  font-weight: bold;
+  transition: ease 0.2s;
+}
+
+.buttonSend:hover {
+  cursor: pointer;
+  box-shadow: inset -2px -2px 8px rgba(255, 255, 255, 1),
+    inset -2px -2px 8px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+    inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+  transform: scale(0.98);
+  border: solid 1px black;
+  font-size: 0.9rem;
+}
