@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Portafolio.v1/static/css/main.1a1a8027.css",
+    "main.js": "/Portafolio.v1/static/js/main.e9893c4e.js",
+    "static/js/453.35520f7b.chunk.js": "/Portafolio.v1/static/js/453.35520f7b.chunk.js",
+    "static/media/React.png": "/Portafolio.v1/static/media/React.e00de5ff09c16d847d52.png",
+    "static/media/CSS.png": "/Portafolio.v1/static/media/CSS.e45638344f12f3855ca0.png",
+    "static/media/ingles.png": "/Portafolio.v1/static/media/ingles.066edf91571f11466abb.png",
+    "static/media/imageComputer.png": "/Portafolio.v1/static/media/imageComputer.ec263365c1f07ffda1b7.png",
+    "static/media/HenryStudies.png": "/Portafolio.v1/static/media/HenryStudies.0ff9ff29547f4d3e1903.png",
+    "static/media/Bootstrap.png": "/Portafolio.v1/static/media/Bootstrap.4530de58f889776eac4a.png",
+    "static/media/mail.png": "/Portafolio.v1/static/media/mail.0aee4ca23952380ba7d1.png",
+    "static/media/Redux.png": "/Portafolio.v1/static/media/Redux.b1b89f8c6e2ea3ef5250.png",
+    "static/media/TS.png": "/Portafolio.v1/static/media/TS.52ea0bc40ba11d507e7d.png",
+    "static/media/Blogs3.png": "/Portafolio.v1/static/media/Blogs3.743973dd92c138058434.png",
+    "static/media/Mysql.png": "/Portafolio.v1/static/media/Mysql.9abb470bd3a3e2290e39.png",
+    "static/media/Mongo.png": "/Portafolio.v1/static/media/Mongo.788ba14a56a0932b85c7.png",
+    "static/media/JS.png": "/Portafolio.v1/static/media/JS.854d47751eb61d44ef81.png",
+    "static/media/BlogBack.png": "/Portafolio.v1/static/media/BlogBack.ff7cd6bdbf581fea3be2.png",
+    "static/media/htmlFondo.png": "/Portafolio.v1/static/media/htmlFondo.1a8bab02915cc002fbeb.png",
+    "static/media/Sequelize.png": "/Portafolio.v1/static/media/Sequelize.6acc9771a6285208760f.png",
+    "static/media/Postgres.png": "/Portafolio.v1/static/media/Postgres.884f37fadcede2ef856d.png",
+    "index.html": "/Portafolio.v1/index.html",
+    "main.1a1a8027.css.map": "/Portafolio.v1/static/css/main.1a1a8027.css.map",
+    "main.e9893c4e.js.map": "/Portafolio.v1/static/js/main.e9893c4e.js.map",
+    "453.35520f7b.chunk.js.map": "/Portafolio.v1/static/js/453.35520f7b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a1a8027.css",
+    "static/js/main.e9893c4e.js"
+  ]
+}
